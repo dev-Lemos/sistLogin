@@ -1,0 +1,89 @@
+body{
+    background: #191970;
+    font-family: sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.borda1{
+    right: 30%;
+    border-radius: 25px;
+    border: 0px solid #191970;
+    background: rgb(255, 255, 255, 0.4);
+    margin: auto;
+    width: 35%;
+    height: auto;
+    text-align: center;
+
+}
+.cabecalho{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -3px;
+    margin-bottom: 20px;
+}
+button{
+    background: #191970;
+    border-color: #191970;
+    color: white;
+    width: 65%;
+    font-weight: bolder;
+}
+.linha{
+    display: inline-block;
+    padding-right: 50px;
+}
+.linha1{
+    display: inline-block;
+    font-style: italic;
+}
+.espaco{
+    padding-top: 10px;
+}
+.linhalinks{
+    display: inline-block;
+}
+#social{
+    background: #2A2AD4;
+    border-color: #2A2AD4;
+    width: 110px;
+    margin: 5px 2px 5px 2px;
+    cursor: pointer;
+    
+}
+#media{
+    background: #3F9BBF;
+    border-color: #3F9BBF;
+    width: 110px;
+    margin: 5px 2px 5px 2px;
+    cursor: pointer;
+}
+#links{
+    background: #BF413F;
+    border-color: #BF413F;
+    width: 110px;
+    margin: 5px 2px 5px 2px;
+    cursor: pointer;
+}
+.descer{
+    padding-bottom: 20px;
+}
+.centralizar{
+    text-align: center;
+}
+.esquerda{
+    padding-right: 18px;
+}
+.esquerda1{
+    padding-left: 99%;
+}
+
+.cima{
+    margin-top: -10px;
+}
+.meio{
+    margin: auto;
+    margin-top: 5%;
+}

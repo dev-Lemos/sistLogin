@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Member Login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript">
+        function openwindow() { 
+            // window.open("paginas/recuperacaosenha.html", 'Recuperação de Senha', resizable='no' ,scrollbars='no', directories='no', status='no', menubar='no', toolbar='no');
+            window.open("paginas/recuperacaosenha.html", "Recuperação de Senha", toolbar="no");            
+            // window.innerHeight=540; 
+            // window.innerWidth=510;  
+        }
+    </script>
+</head>
+<body>  
+    <div class="meio">
+        <form action="" method="POST" >
+            <fieldset class="borda1"> 
+                <legend><img src="imagens/avatar2.png" alt="avatar"></legend>
+                <div>
+                    <p class="cabecalho">MEMBER LOGIN</p>
+                </div>
+                <div class="esquerda">
+                    <img src="imagens/avatar.png" alt="avatar" width="15px" >&nbsp<input size="38%" type="text" name="login" id="username" placeholder="Username">
+                </div>
+                <div class="espaco esquerda">
+                    <img src="imagens/key.png" alt="key" width="15px">&nbsp<input size="38%" type="password" name="senha" id="password" placeholder="•••••••••••••">
+                </div>
+                <div class="botao espaco">
+                    <!-- <input type="submit" name="login" id="login" value="LOGIN"> -->
+                    
+                    <button type="submit">LOGIN</button>
+                </div>
+                <div>
+                    <span>
+                        <label class="linha" for="remember"><input type="checkbox" id="remember"> Manter conectado</label>
+                        <a href="paginas/recuperacaosenha.html" onclick="javascript:openwindow(); return false;"><i>Esqueci minha senha</i></a>
+                    </span>
+                </div>
+                <div class="descer">
+                    <span class="nalinha">
+                        <button id="social" class="linhalinks"><a href="paginas/social.html">SOCIAL</a></button>
+                        <button id="media" class="linhalinks">MEDIA</button>
+                        <button id="links" class="linhalinks">LINKS</button>
+                    </span>
+                </div>
+            </fieldset>
+        </form>
+        <div class="centralizar">
+        <p>Copyright© 2019 <i>Lemos Developers</i>, Inc.</p>
+        </div>
+    </div>
+</body>
+</html>
